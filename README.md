@@ -11,18 +11,21 @@ Step 1 - Getting core files:
 Login to raspberry pi as user pi (using standard ssh session with for example the tool 'Putty').
 Command: ssh pi@IPADRESS
 
-2. cloning the files onto your system:
-
+Step 2 - Cloning the files onto your system:
+=================
 a) cd into the desired directory where you want to install telegram.
 Example: if you want to install telegram in /home/pi/domoticz/scripts, then cd into directory /home/pi/domoticz/scripts, the telegram subdirectory will be created automatically for you.
 
-b) execute command: git clone  
+b) execute command: git clone https://github.com/dr-morris/domoticz_telegram.git 
+c) you have now the TelegramInstall.sh, scripts.tar and the readme file on your local filesystem
 
-
-
-Copy TelegramInstall.sh to your rasberry in the /home/pi directory
+Step 3 - Installing Telegram
+=================
 execute chmod u+x TelegramInstall.sh
 execute TelegramInstall.sh
+
+Step 4 - Configuring Telegram
+=================
 
 When telegram session is running:
 press TAB key and enter your phone number (using your mobile will cause not receiving notifications on new messages, try using your landline): +31612345678
