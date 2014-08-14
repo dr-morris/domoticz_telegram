@@ -16,7 +16,7 @@ Command: ssh pi@IPADRESS
 a) cd into the desired directory where you want to install telegram.
 Example: if you want to install telegram in /home/pi/domoticz/scripts, then cd into directory /home/pi/domoticz/scripts, the telegram subdirectory will be created automatically for you.
 
-b) execute command: git clone 
+b) execute command: git clone  
 
 
 
