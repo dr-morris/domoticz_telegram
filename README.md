@@ -5,15 +5,20 @@ Telegram installation for Domoticz Home Automation System
 
 This readme file should help you getting started with the Telegram scripts
 
-Installation:
+Step 1 - Getting core files:
 =================
-Step 1 - login via Putty: 
+1. login via Putty: 
 Login to raspberry pi as user pi (using standard ssh session with for example the tool 'Putty').
 Command: ssh pi@IPADRESS
 
-Step 2 - installation of the files:
+2. cloning the files onto your system:
 
-cd into your domoticz/scripts directory
+a) cd into the desired directory where you want to install telegram.
+Example: if you want to install telegram in /home/pi/domoticz/scripts, then cd into directory /home/pi/domoticz/scripts, the telegram subdirectory will be created automatically for you.
+
+b) execute command: git clone 
+
+
 
 Copy TelegramInstall.sh to your rasberry in the /home/pi directory
 execute chmod u+x TelegramInstall.sh
